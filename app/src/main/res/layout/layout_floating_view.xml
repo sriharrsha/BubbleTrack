@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/root_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:id="@+id/collapse_view"
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/track_button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:src="@mipmap/ic_launcher_round"
+                tools:ignore="ContentDescription"/>
+
+            <ImageView
+                android:id="@+id/close_btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/close_button"
+                tools:ignore="ContentDescription"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/expanded_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="Track"
+                android:id="@+id/thirty_button"
+                android:textColor="#FFFFFF"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:textSize="14dp"
+                android:backgroundTint="@color/colorAccent"
+                android:textFontWeight="600"
+                tools:ignore="ContentDescription"
+                android:layout_gravity="center_vertical"/>
+
+            <ImageView
+                android:id="@+id/prev_btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="-1dp"
+                android:src="@drawable/close_button"
+                tools:ignore="ContentDescription"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

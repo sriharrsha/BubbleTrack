@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "43771708522",
+    "firebase_url": "https://bubbletrack-d503d.firebaseio.com",
+    "project_id": "bubbletrack-d503d",
+    "storage_bucket": "bubbletrack-d503d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43771708522:android:a5d4448b6f5b71b4c8b613",
+        "android_client_info": {
+          "package_name": "com.sriharrsha.bubbletrack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43771708522-o9amjh0l5vt6rlmu8jsa0nepuksk7acq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCehJqh46L6CU2FWJDSL-0bJsABAJCl7Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43771708522-o9amjh0l5vt6rlmu8jsa0nepuksk7acq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
